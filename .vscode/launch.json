@@ -1,0 +1,54 @@
+{
+    "configurations": [
+          {
+            "type": "java",
+            "name": "Product Service - Local",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/product-service",
+            "mainClass": "com.ecommerce.product_service.ProductServiceApplication",
+            "projectName": "product-service",
+            "envFile": "${workspaceFolder}/product-service/.env",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Order Service - Local",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/order-service",
+            "mainClass": "com.ecommerce.order_service.OrderServiceApplication",
+            "projectName": "order-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/order-service/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-NotificationServiceApplication<notification-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/notification-service",
+            "mainClass": "com.ecommerce.notification_service.NotificationServiceApplication",
+            "projectName": "notification-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/notification-service/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-InventoryServiceApplication<inventory-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/inventory-service",
+            "mainClass": "com.ecommerce.inventory_service.InventoryServiceApplication",
+            "projectName": "inventory-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/inventory-service/.env"
+        },
+        {
+            "type": "java",
+            "name": "Discovery Server - Local",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/discovery-server",
+            "mainClass": "com.devtalles.ecommerce.discovery_server.DiscoveryServerApplication",
+            "projectName": "discovery-server",
+            "envFile": "${workspaceFolder}/discovery-server/.env",
+            "console": "integratedTerminal"
+        }
+    ]
+}
