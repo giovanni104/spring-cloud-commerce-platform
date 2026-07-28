@@ -1,0 +1,3 @@
+ejecutar y instalar
+docker compose up -d
+
