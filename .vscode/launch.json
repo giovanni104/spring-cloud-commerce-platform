@@ -1,6 +1,6 @@
 {
     "configurations": [
-          {
+        {
             "type": "java",
             "name": "Product Service - Local",
             "request": "launch",
@@ -49,6 +49,16 @@
             "projectName": "discovery-server",
             "envFile": "${workspaceFolder}/discovery-server/.env",
             "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigServerApplication<config-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.ecommerce.config_server.ConfigServerApplication",
+            "projectName": "config-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

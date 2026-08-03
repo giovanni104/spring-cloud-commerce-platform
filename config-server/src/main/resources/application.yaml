@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/giovanni104/microservices-config-data
+          username: ${GITHUB_USER}
+          password: ${GITHUB_TOKEN}
+          clone-on-start: true
+          default-label: main
+server:
+  port: 8888
+
+encrypt:
+  key: ${KEY-ENCRYPT}
