@@ -3,3 +3,6 @@ spring:
     name: inventory-service
   config:
     import: "optional:configserver:http://localhost:8888"
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.uuid}
