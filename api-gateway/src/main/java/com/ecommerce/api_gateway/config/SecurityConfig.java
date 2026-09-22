@@ -1,6 +1,5 @@
 package com.ecommerce.api_gateway.config;
 
-
 import com.ecommerce.api_gateway.enums.Role;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
