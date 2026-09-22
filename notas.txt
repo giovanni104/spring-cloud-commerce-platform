@@ -2,3 +2,12 @@ ejecutar y instalar
 docker compose up -d
 
 docker compose down
+
+
+test_user  1234
+
+api-gateway-client  F48vom53qpRkQoQZ2rpq3zdmNZM5XKzl
+
+
+
+secreto-local   Basic Y2xpZW50ZS1sb2NhbDpzZWNyZXRvLWxvY2Fs
